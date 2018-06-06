@@ -12,4 +12,9 @@ https://rubyplus.com/articles/4561-Twitter-Bootstrap-4-Lightbox
 
 https://github.com/Rhotimee/lightbox-for-bootstrap
 
-AIzaSyCAS67BULq7O2-2PT5ImqPmVhcSepTi7is
+<iframe
+  width="100%"
+  height="400"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCAS67BULq7O2-2PT5ImqPmVhcSepTi7is&q=5+Les+Bruyères,+63550+Saint-Rémy-sur-Durolle" allowfullscreen>
+</iframe>
