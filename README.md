@@ -11,3 +11,5 @@ http://ashleydw.github.io/lightbox/
 https://rubyplus.com/articles/4561-Twitter-Bootstrap-4-Lightbox
 
 https://github.com/Rhotimee/lightbox-for-bootstrap
+
+AIzaSyCAS67BULq7O2-2PT5ImqPmVhcSepTi7is
