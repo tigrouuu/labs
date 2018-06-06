@@ -18,3 +18,13 @@ https://github.com/Rhotimee/lightbox-for-bootstrap
   frameborder="0" style="border:0"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCAS67BULq7O2-2PT5ImqPmVhcSepTi7is&q=5+Les+Bruyères,+63550+Saint-Rémy-sur-Durolle" allowfullscreen>
 </iframe>
+
+<iframe 
+  class="map"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCAS67BULq7O2-2PT5ImqPmVhcSepTi7is&q=5+Les+Bruyères,+63550+Saint-Rémy-sur-Durolle"
+  width="100%"
+  height="300"
+  frameborder="0"
+  style="border:0"
+  allowfullscreen>
+</iframe>
