@@ -19,6 +19,7 @@
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
 
   <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
+  <link type="text/css" rel="stylesheet" href="./css/custom.css">
 
   <style>
     .fdb-block {
@@ -63,6 +64,110 @@
       </nav>
     </div>
   </header>
+
+  <section class="fdb-block">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="./imgs/colors_wide_1.jpg">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="./imgs/colors_wide_1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="./imgs/colors_wide_1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="./imgs/colors_wide_1.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+
+          <div class="column">
+            <img class="demo cursor" src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./imgs/colors_wide_1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col-md-6">
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+          <!- <p><a href="img/img_7.jpg" class="image-popup"><img src="img/img_7.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by uicookies.com"></a></p> ->
+        </div>
+        <div class="col-md-6">
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+          <p>
+            <a href="img/img_1.jpg" class="image-popup">
+              <img alt="image" class="img-responsive" src="./imgs/colors_wide_1.jpg">
+            </a>
+          </p>
+        </div>
+      </div> -->
+    </div>
+  </section>
 
   <footer class="fdb-block footer-large bg-dark">
     <div class="container">
@@ -115,5 +220,44 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <script>
+  function openModal() {
+    document.getElementById('myModal').style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+  }
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
 </body>
 </html>
